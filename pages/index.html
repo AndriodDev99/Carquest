@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Listings</title>
+    <link rel="stylesheet" href="/Styling/styles.css">
+    <link rel="stylesheet" href="/Styling/nav.css">
+    <link rel="stylesheet" href="/Styling/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Car CarQuest</h1>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="index.html">Buy</a>
+        <a href="#sell">Sell</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section id="buy">
+        <h2>Buy a Car</h2>
+        
+        <div id="categoryFilter">
+            <button class="category-btn" data-category="Sedan">Sedan</button>
+            <button class="category-btn" data-category="SUV">SUV</button>
+            <button class="category-btn" data-category="Truck">Truck</button>
+            <button class="category-btn" data-category="Coupe">Coupe</button>
+        </div>
+
+        <div class="filters">
+            <input type="text" id="searchBar" placeholder="Search by car name or location..." onkeyup="filterCars()">
+        </div>
+
+        <div class="container" id="cars">
+            <h3>Available Cars</h3>
+            
+            <div class="pagination">
+                <button id="prevBtn" onclick="changePage(-1)">Previous</button>
+                <button id="nextBtn" onclick="changePage(1)">Next</button>
+            </div>
+            
+            <div id="carContainer"></div>
+
+            <div class="pagination">
+                <button id="prevBtn" onclick="changePage(-1)">Previous</button>
+                <button id="nextBtn" onclick="changePage(1)">Next</button>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer>
+        <p>&copy; 2025 CarQuest. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+    <script src="/js/about.js"></script>
+</body>
+</html>
+
+

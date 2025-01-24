@@ -1,0 +1,199 @@
+[
+    {
+        "name": "2020 Ford Ranger",
+        "price": "$35,000",
+        "location": "Pretoria",
+        "mileage": "30,000 km",
+        "category": "Truck",
+        "image": ["https://tse4.mm.bing.net/th?id=OIP.DpaxssoYHKVtboz3hbTa_gHaEL&pid=Api&P=0&h=220","https://tse4.mm.bing.net/th?id=OIP.PyIPWb5k8nbvK1WmJPHptwHaEK&pid=Api&P=0&h=220"],
+        "rating": 4.5,
+        "carId": 1
+    },
+    {
+        "name": "2021 Toyota Corolla",
+        "price": "$20,000",
+        "location": "Midrand",
+        "mileage": "15,000 km",
+        "category": "SUV",
+        "image": ["https://tse4.mm.bing.net/th?id=OIP.7UDwzr6IlM2mYivegIScRQHaFP&pid=Api&P=0&h=220","https://tse3.mm.bing.net/th?id=OIP.Pc8CHX9-BZCySON865azFAHaEK&pid=Api&P=0&h=220"],
+        "rating": 4.5,
+        "carId": 2
+    },
+    {
+        "name": "2020 Ford Ranger",
+        "price": "$35,000",
+        "location": "Pretoria",
+        "mileage": "30,000 km",
+        "category": "Sedan",
+        "image": "https://tse4.mm.bing.net/th?id=OIP.DpaxssoYHKVtboz3hbTa_gHaEL&pid=Api&P=0&h=220",
+        "rating": 4.5,
+        "carId": 3
+    },
+    {
+        "name": "2019 Honda Civic",
+        "price": "$18,000",
+        "location": "Johannesburg",
+        "mileage": "25,000 km",
+        "category": "Coupe",
+        "image": "https://tse4.mm.bing.net/th?id=OIP.BaWR659z3x5tfr8KjSR-JwHaEK&pid=Api&P=0&h=220",
+        "rating": 4.5,
+        "carId": 4
+    },
+    {
+        "name": "2020 Ford Ranger",
+        "price": "$35,000",
+        "location": "Pretoria",
+        "mileage": "30,000 km",
+        "category": "Truck",
+        "image": ["https://tse4.mm.bing.net/th?id=OIP.DpaxssoYHKVtboz3hbTa_gHaEL&pid=Api&P=0&h=220","https://tse4.mm.bing.net/th?id=OIP.PyIPWb5k8nbvK1WmJPHptwHaEK&pid=Api&P=0&h=220"],
+        "rating": 4.5,
+        "carId": 5
+    },
+    {
+        "name": "2021 Toyota Corolla",
+        "price": "$20,000",
+        "location": "Midrand",
+        "mileage": "15,000 km",
+        "category": "SUV",
+        "image": ["https://tse4.mm.bing.net/th?id=OIP.7UDwzr6IlM2mYivegIScRQHaFP&pid=Api&P=0&h=220","https://tse3.mm.bing.net/th?id=OIP.Pc8CHX9-BZCySON865azFAHaEK&pid=Api&P=0&h=220"],
+        "rating": 4.5,
+        "carId": 6
+    },
+    {
+        "name": "2020 Ford Ranger",
+        "price": "$35,000",
+        "location": "Pretoria",
+        "mileage": "30,000 km",
+        "category": "Sedan",
+        "image": "https://tse4.mm.bing.net/th?id=OIP.DpaxssoYHKVtboz3hbTa_gHaEL&pid=Api&P=0&h=220",
+        "rating": 4.5,
+        "carId": 6
+    },
+    {
+        "name": "2019 Honda Civic",
+        "price": "$18,000",
+        "location": "Johannesburg",
+        "mileage": "25,000 km",
+        "category": "Coupe",
+        "image": "https://tse4.mm.bing.net/th?id=OIP.BaWR659z3x5tfr8KjSR-JwHaEK&pid=Api&P=0&h=220",
+        "rating": 4.5,
+        "carId": 8
+    }, {
+        "name": "2020 Ford Ranger",
+        "price": "$35,000",
+        "location": "Pretoria",
+        "mileage": "30,000 km",
+        "category": "Truck",
+        "image": ["https://tse4.mm.bing.net/th?id=OIP.DpaxssoYHKVtboz3hbTa_gHaEL&pid=Api&P=0&h=220","https://tse4.mm.bing.net/th?id=OIP.PyIPWb5k8nbvK1WmJPHptwHaEK&pid=Api&P=0&h=220"],
+        "rating": 4.5,
+        "carId": 9
+    },
+    {
+        "name": "2021 Toyota Corolla",
+        "price": "$20,000",
+        "location": "Midrand",
+        "mileage": "15,000 km",
+        "category": "SUV",
+        "image": ["https://tse4.mm.bing.net/th?id=OIP.7UDwzr6IlM2mYivegIScRQHaFP&pid=Api&P=0&h=220","https://tse3.mm.bing.net/th?id=OIP.Pc8CHX9-BZCySON865azFAHaEK&pid=Api&P=0&h=220"],
+        "rating": 4.5,
+        "carId": 10
+    },
+    {
+        "name": "2020 Ford Ranger",
+        "price": "$35,000",
+        "location": "Pretoria",
+        "mileage": "30,000 km",
+        "category": "Sedan",
+        "image": "https://tse4.mm.bing.net/th?id=OIP.DpaxssoYHKVtboz3hbTa_gHaEL&pid=Api&P=0&h=220",
+        "rating": 4.5,
+        "carId": 11
+    },
+    {
+        "name": "2019 Honda Civic",
+        "price": "$18,000",
+        "location": "Johannesburg",
+        "mileage": "25,000 km",
+        "category": "Coupe",
+        "image": "https://tse4.mm.bing.net/th?id=OIP.BaWR659z3x5tfr8KjSR-JwHaEK&pid=Api&P=0&h=220",
+        "rating": 4.5,
+        "carId": 12
+    }, {
+        "name": "2020 Ford Ranger",
+        "price": "$35,000",
+        "location": "Pretoria",
+        "mileage": "30,000 km",
+        "category": "Truck",
+        "image": ["https://tse4.mm.bing.net/th?id=OIP.DpaxssoYHKVtboz3hbTa_gHaEL&pid=Api&P=0&h=220","https://tse4.mm.bing.net/th?id=OIP.PyIPWb5k8nbvK1WmJPHptwHaEK&pid=Api&P=0&h=220"],
+        "rating": 4.5,
+        "carId": 13
+    },
+    {
+        "name": "2021 Toyota Corolla",
+        "price": "$20,000",
+        "location": "Midrand",
+        "mileage": "15,000 km",
+        "category": "SUV",
+        "image": ["https://tse4.mm.bing.net/th?id=OIP.7UDwzr6IlM2mYivegIScRQHaFP&pid=Api&P=0&h=220","https://tse3.mm.bing.net/th?id=OIP.Pc8CHX9-BZCySON865azFAHaEK&pid=Api&P=0&h=220"],
+        "rating": 4.5,
+        "carId": 14
+    },
+    {
+        "name": "2020 Ford Ranger",
+        "price": "$35,000",
+        "location": "Pretoria",
+        "mileage": "30,000 km",
+        "category": "Sedan",
+        "image": "https://tse4.mm.bing.net/th?id=OIP.DpaxssoYHKVtboz3hbTa_gHaEL&pid=Api&P=0&h=220",
+        "rating": 4.5,
+        "carId": 15
+    },
+    {
+        "name": "2019 Honda Civic",
+        "price": "$18,000",
+        "location": "Johannesburg",
+        "mileage": "25,000 km",
+        "category": "Coupe",
+        "image": "https://tse4.mm.bing.net/th?id=OIP.BaWR659z3x5tfr8KjSR-JwHaEK&pid=Api&P=0&h=220",
+        "rating": 4.5,
+        "carId": 16
+    }, {
+        "name": "2020 Ford Ranger",
+        "price": "$35,000",
+        "location": "Pretoria",
+        "mileage": "30,000 km",
+        "category": "Truck",
+        "image": ["https://tse4.mm.bing.net/th?id=OIP.DpaxssoYHKVtboz3hbTa_gHaEL&pid=Api&P=0&h=220","https://tse4.mm.bing.net/th?id=OIP.PyIPWb5k8nbvK1WmJPHptwHaEK&pid=Api&P=0&h=220"],
+        "rating": 4.5,
+        "carId": 17
+    },
+    {
+        "name": "2021 Toyota Corolla",
+        "price": "$20,000",
+        "location": "Midrand",
+        "mileage": "15,000 km",
+        "category": "SUV",
+        "image": ["https://tse4.mm.bing.net/th?id=OIP.7UDwzr6IlM2mYivegIScRQHaFP&pid=Api&P=0&h=220","https://tse3.mm.bing.net/th?id=OIP.Pc8CHX9-BZCySON865azFAHaEK&pid=Api&P=0&h=220"],
+        "rating": 4.5,
+        "carId": 18
+    },
+    {
+        "name": "2020 Ford Ranger",
+        "price": "$35,000",
+        "location": "Pretoria",
+        "mileage": "30,000 km",
+        "category": "Sedan",
+        "image": "https://tse4.mm.bing.net/th?id=OIP.DpaxssoYHKVtboz3hbTa_gHaEL&pid=Api&P=0&h=220",
+        "rating": 4.5,
+        "carId": 19
+    },
+    {
+        "name": "2019 Honda Civic",
+        "price": "$18,000",
+        "location": "Johannesburg",
+        "mileage": "25,000 km",
+        "category": "Coupe",
+        "image": "https://tse4.mm.bing.net/th?id=OIP.BaWR659z3x5tfr8KjSR-JwHaEK&pid=Api&P=0&h=220",
+        "rating": 4.5,
+        "carId": 20
+    }
+]

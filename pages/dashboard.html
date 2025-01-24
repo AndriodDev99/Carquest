@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/Styling/dashboard.css">
+    <link rel="stylesheet" href="/Styling/nav.css">
+    <link rel="stylesheet" href="/Styling/footer.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Car CarQuest</h1>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="index.html">Buy</a>
+        <a href="#sell">Sell</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <section class="stats">
+            <div class="stat-card">
+                <h2>Total Users</h2>
+                <p id="total-users">1,234</p>
+            </div>
+            <div class="stat-card">
+                <h2>Active Users</h2>
+                <p id="active-users">567</p>
+            </div>
+            <div class="stat-card">
+                <h2>Sales</h2>
+                <p id="total-sales">$12,345</p>
+            </div>
+            <div class="stat-card">
+                <h2>New Signups</h2>
+                <p id="new-signups">123</p>
+            </div>
+        </section>
+
+        <section class="charts">
+            <div class="chart-container">
+                <h3>User Growth</h3>
+                <canvas id="user-growth-chart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3>Sales Overview</h3>
+                <canvas id="sales-overview-chart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3>Category Popularity</h3>
+                <canvas id="category-chart"></canvas>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CarQuest. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="/js/dashboard.js"></script>
+    <script src="/js/about.js"></script>
+</body>
+</html>

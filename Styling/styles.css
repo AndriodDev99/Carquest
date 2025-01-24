@@ -1,0 +1,246 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+/* Section Styles */
+section {
+    padding: 2rem;
+    background-color: white;
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Filter Styles */
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+#searchBar {
+    width: 45%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Category Buttons */
+.categories {
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the left (straight line going right) */
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: nowrap; /* Ensures buttons stay in a straight line */
+}
+
+.category-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    min-width: 120px; /* Optional: Adjust button size for uniformity */
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.category-btn i {
+    margin-right: 0.5rem;
+}
+
+.category-btn:hover {
+    background-color: #0056b3;
+}
+
+.category-btn.active {
+    background-color: #ff4757;
+}
+
+
+/* Card Container Layout */
+#carContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 0 10px;
+}
+
+/* Card Styles */
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Image Slider */
+.card .image-slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.card .image-slider img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card .image-slider img:hover {
+    transform: scale(1.05);
+}
+
+/* Slider Controls */
+.card .image-slider .slider-controls {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    transform: translateY(-50%);
+}
+
+.card .image-slider .slider-controls button {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .image-slider .slider-controls button:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* Card Info */
+.card .info {
+    padding: 1rem;
+    text-align: center;
+}
+
+.card .info h3 {
+    margin: 0.5rem 0;
+}
+
+.card .info p {
+    margin: 0.5rem 0;
+    color: #555;
+}
+
+/* Card Actions */
+.card .actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.card .actions button {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.card .actions button.like {
+    background: #ff4757;
+    color: #fff;
+}
+
+.card .actions button.save {
+    background: #1e90ff;
+    color: #fff;
+}
+
+.card .actions button.details {
+    background: #2ed573;
+    color: #fff;
+}
+
+.card .actions button:hover {
+    opacity: 0.9;
+}
+
+
+.pagination {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.pagination button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #carContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .filters {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #searchBar {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .card h3 {
+        font-size: 1em;
+    }
+
+    .card p {
+        font-size: 0.9em;
+    }
+}
+
